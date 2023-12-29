@@ -18,4 +18,4 @@ COPY . /app/
 EXPOSE 8000
 
 # Run server.py when the container launches
-CMD ["python", "server.py"]
+CMD ["uvicorn", "server:app", "--host", "0.0.0.0", "--port", "8000"]

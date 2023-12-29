@@ -1,1 +1,4 @@
-flask
+fastapi
+openai
+uvicorn
+langchain
